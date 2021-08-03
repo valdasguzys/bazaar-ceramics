@@ -1,0 +1,261 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Main Styling */
+body {
+  font-family: 'arial', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px;
+  font-size: 40px;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100;
+  margin: auto;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #fff;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 0.75rem 5rem;
+  border: none;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #c0c0c0;
+  color: #000;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #000;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  font-weight: 700;
+}
+
+.navbar ul li a:hover {
+  background: #e7e7e7;
+  border-radius: 5px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  height: 2rem;
+}
+
+.search img {
+  height: 2rem;
+  padding: 0 10px
+}
+
+/* Showcase */
+.showcase {
+  background: #333 url('https://via.placeholder.com/1440x912') no-repeat center center/cover;
+  height: 100vh;
+  color: #000;
+}
+
+.showcase .showcase-content {
+  padding-left: 200px;
+  padding-top: 200px;
+  /* display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center; */
+  /* align-items: center; */
+  height: 100%;
+
+}
+
+
+/* section: new products */
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.item {
+  width: 306px;
+  text-align: left;
+}
+
+.button {
+  text-align: center;
+  margin: 40px;
+}
+
+.button a {
+  padding: 30px 100px;
+  font-size: 25px;
+}
+
+/* section: new products */
+
+#new_in_ceramics .items {
+  display: block;
+  text-align: left;
+  max-width: 1300px;
+}
+
+.heading {
+  background-color: #e7e7e7;
+}
+
+.heading h2 {
+  padding: 20px;
+}
+
+#new_in_ceramics .items .article {
+  display: flex;
+  margin: 20px;
+}
+
+#new_in_ceramics .items .article .content{
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#new_in_ceramics .items .article .content .links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.round_placeholder {
+  border-radius: 10px;
+  margin: 0 3px;
+}
+
+/* footer */
+
+#footer {
+  background-color: #000;
+  color: #FFF;
+}
+
+.footer_container {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.copyright {
+  text-align: center;
+}
+
+h5 {
+  color: #838181;
+}
+
+
+/* ABOUT */
+
+#about {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.about_section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.side_menu {
+  width: 40%;
+  padding: 80px;
+  background-color: #e7e7e7;
+}
+
+.side_menu .ul {
+
+}
+
+.about_content {
+  width: 60%;
+}
+
+.about_content .article {
+  width: 630px;
+
+}
